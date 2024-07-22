@@ -7,7 +7,7 @@ import UserContext from '../context/UserContext';
 import StripePay from './StripePay';
 import '../styles/Payment.css';
 
-const stripePromise = loadStripe('pk_test_gHRNbIXqJnr5ead25WqdZ4uX');
+const stripePromise = loadStripe('-------');
 
 const PaymentProcess = () => {
   const { authUser } = useContext(UserContext);
