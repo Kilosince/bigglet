@@ -1,0 +1,62 @@
+.payment-container-unique {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.payment-card-unique {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center; /* Centering content */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.payment-input-unique {
+  width: 100px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.payment-button-unique {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.payment-link-unique {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.tip-container-unique {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tip-input-unique {
+  width: 100px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.tip-button-unique {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+}

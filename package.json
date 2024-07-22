@@ -1,0 +1,16 @@
+{
+  "name": "rest-api-auth-with-express-root",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix api\" \"npm start --prefix client\"",
+    "client": "npm install --prefix client",
+    "api": "npm install --prefix api",
+    "install": "npm run client install && npm run api install",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,0 +1,90 @@
+.shopstore-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Bona Nova SC', serif;
+    text-align: center; /* Centering all content within the card */
+  }
+  
+  .shopstore-header {
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .shopstore-subheader {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .shopstore-description {
+    margin-bottom: 10px;
+  }
+  
+  .shopstore-item-card {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: center; /* Centering item cards content */
+  }
+  
+  .shopstore-item-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .shopstore-item-details {
+    margin: 5px 0;
+    font-family: 'Arsenal SC', sans-serif;
+  }
+  
+  .shopstore-item-input {
+   
+  }
+  
+  @media (min-width: 768px) {
+    .shopstore-item-input {
+      width: 50%;
+    }
+  }
+  
+  .shopstore-item-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .shopstore-item-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .shopstore-paymentprocess {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .shopstore-paymentprocess:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 767px) {
+    .shopstore-details-container {
+      margin: 20px 10px;
+    }
+  }
+  

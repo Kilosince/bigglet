@@ -1,0 +1,36 @@
+/* Styles for the AccentColor component */
+.accent-color-container {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.accent-color-content {
+    max-width: 400px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .accent-color-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .accent-color-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .accent-color-container {
+        padding: 10px;
+    }
+
+    .accent-color-content {
+        width: 100%;
+    }
+}

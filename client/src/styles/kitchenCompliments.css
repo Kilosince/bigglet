@@ -1,0 +1,60 @@
+/* kitchenCompliments.css */
+.kitchen-compliment-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px; /* Reduced padding */
+  box-sizing: border-box;
+}
+
+.kitchen-compliment-card {
+  padding: 10px; /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 10px;
+}
+
+.no-background {
+  background-color: transparent; /* Remove background color */
+}
+
+.kitchen-compliments-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+hr {
+  margin-top: 10px; /* Adds more space below the create button */
+}
+
+.promotion-section {
+  margin-bottom: 20px; /* Add space between promotions */
+}
+
+.promotion-divider {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0; /* Space around the divider */
+}
+
+.store-link p {
+  margin: 0;
+  color: #32cbe6;
+  text-decoration: none;
+  font-size: 1em; /* Larger font size for store name */
+}
+
+.store-link p:hover {
+  text-decoration: none;
+}
+
+.small-text {
+  font-size: 0.8em; /* Adjust the size as needed */
+}
+
+.kitchen-compliments-list p {
+  margin: 5px 0;
+}

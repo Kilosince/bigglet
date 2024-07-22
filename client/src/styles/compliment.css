@@ -1,0 +1,133 @@
+.compliment-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.compliment-card, .followers-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 10px;
+}
+
+.followers-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.followers-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.followers-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.followers-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.followers-container li p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.followers-container li .send-button {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+
+.red-mark {
+  color: red;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.distribute-button {
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="time"] {
+  width: calc(100% - 20px);
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="submit"] {
+  margin-top: 20px; /* Adds more space above the create button */
+}
+
+hr {
+  margin-top: 20px; /* Adds more space below the create button */
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Center the delete button */
+}
+
+.delete-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.compliment-header {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.group-checkbox {
+  margin-right: 8px;
+  margin-top: 4px; /* Add some top margin */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .compliment-card, .followers-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .followers-container {
+    padding: 10px;
+  }
+}

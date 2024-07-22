@@ -1,0 +1,146 @@
+/* General styles for the Kitchen component */
+.kitchen-container {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    border: 2px solid #ccc !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    font-family: Arial, sans-serif !important;
+    color: #333 !important;
+    box-sizing: border-box !important;
+    background-color: #fff !important; /* Add background color to ensure visibility */
+  }
+  
+  .kitchen-header {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .kitchen-paragraph {
+    margin: 10px 0 !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+  }
+  
+  .kitchen-order {
+    position: relative !important;
+    padding: 15px !important;
+    margin-bottom: 20px !important;
+    border: 2px solid #ccc !important;
+    border-radius: 10px !important;
+    box-sizing: border-box !important;
+    background-color: #f9f9f9 !important;
+  }
+  
+  .kitchen-order-header {
+    cursor: pointer !important;
+    border-bottom: 2px solid black !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: center !important;
+  }
+  
+  .kitchen-item {
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid #ccc !important;
+    padding-bottom: 10px !important;
+  }
+  
+  .kitchen-item p {
+    margin: 5px 0 !important;
+  }
+  
+  .kitchen-item-name {
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+    padding: 5px !important;
+    border-radius: 3px !important;
+    color: black !important;
+  }
+  
+  .kitchen-buttons {
+    display: flex !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    margin-top: 10px !important;
+  }
+  
+  .kitchen-button {
+    border: none !important;
+    padding: 12px 18px !important;
+    border-radius: 25px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    font-size: 1em !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+  }
+  
+  .kitchen-button.ready {
+    background-color: #28a745 !important;
+    color: white !important;
+  }
+  
+  .kitchen-button.ready:hover {
+    background-color: #218838 !important;
+    transform: translateY(-2px) !important;
+  }
+  
+  .kitchen-button.ready-in-10 {
+    background-color: #ffc107 !important;
+    color: black !important;
+  }
+  
+  .kitchen-button.ready-in-10:hover {
+    background-color: #e0a800 !important;
+    transform: translateY(-2px) !important;
+  }
+  
+  .kitchen-button.delete {
+    background-color: #dc3545 !important;
+    color: white !important;
+    margin-top: 10px !important;
+  }
+  
+  .kitchen-button.delete:hover {
+    background-color: #c82333 !important;
+    transform: translateY(-2px) !important;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .kitchen-container {
+      padding: 15px !important;
+    }
+  
+    .kitchen-order {
+      padding: 10px !important;
+    }
+  
+    .kitchen-button {
+      width: 100% !important;
+      max-width: none !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .kitchen-container {
+      padding: 10px !important;
+    }
+  
+    .kitchen-order {
+      padding: 10px !important;
+    }
+  
+    .kitchen-button {
+      width: 100% !important;
+      max-width: none !important;
+    }
+  }
+  

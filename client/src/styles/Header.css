@@ -1,0 +1,38 @@
+/* Styles for the Header component */
+.header {
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header--logo {
+  font-size: 2rem;
+  color: white; /* Set font color to white */
+  margin: 0;
+  padding: 0;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.menu-button {
+  display: none; /* Hidden by default */
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+      display: block; /* Show menu button on small screens */
+  }
+}

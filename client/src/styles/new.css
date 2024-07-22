@@ -1,0 +1,122 @@
+/* Base styles */
+body {
+  --primary-bg: rgb(255, 255, 255);
+  --primary-copy: rgb(50, 52, 65);
+  --toggle-bg: #ccc;
+  --toggle-color: #ffffff;
+}
+
+body.dark {
+  --primary-bg: rgb(50, 52, 65);
+  --primary-copy: rgb(255, 255, 255);
+  --toggle-bg: #ccc;
+  --toggle-color: rgb(50, 52, 65);
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-copy);
+  transition: background .5s ease, color .5s ease;
+}
+
+.twitter-picker>div {
+  background-color: var(--primary-bg);
+  transition: background .5s ease, color .5s ease;
+}
+
+[id^='rc-editable-input'] {
+  background: var(--primary-bg);
+  color: var(--primary-copy);
+  transition: background .5s ease, color .5s ease;
+}
+
+input[type="range"] {
+  color: var(--primary-copy);
+  transition: background .5s ease, color .5s ease;
+}
+
+/* Container and layout styles */
+.container {
+  padding: 20px;
+}
+
+.header, .footer {
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.content {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Box styles for responsive layout */
+.box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  flex: 1 1 calc(100% - 40px); /* Default to 100% width minus margin */
+  margin: 10px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and bigger screens */
+@media (min-width: 600px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    flex: 1 1 calc(50% - 40px); /* For tablets, boxes take 50% of the width minus margin */
+  }
+}
+
+/* For desktops and bigger screens */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .box {
+    flex: 1 1 calc(33.33% - 40px); /* For desktops, boxes take 33.33% of the width minus margin */
+  }
+}
+
+/* Additional styles */
+
+/* Adds additional padding to the bottom of an element */
+.pad-bottom {
+  padding-bottom: 40px;
+}
+
+/* Additional class name for header elements */
+.signout {
+  margin-top: 60px;
+}
+
+/* Styles the signed in user's name in the header */
+.header nav span {
+  color: #fff;
+  margin-left: 20px;
+}
+
+/* Styles the validation errors */
+.validation--errors--label {
+  color: #dc3545;
+  font-size: 28px;
+}
+
+.validation-errors ul {
+  color: #dc3545;
+  padding: 15px 0 40px 10px;
+}

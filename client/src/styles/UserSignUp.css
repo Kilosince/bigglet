@@ -1,0 +1,88 @@
+.grid-33 {
+  width: 33%;
+}
+
+.centered {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin {
+  text-align: center;
+}
+
+.pad-bottom {
+  padding-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+.card input[type="text"],
+.card input[type="email"],
+.card input[type="password"],
+.card input[type="number"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.card input[type="text"]:focus,
+.card input[type="email"]:focus,
+.card input[type="password"]:focus,
+.card input[type="number"]:focus {
+  border-color: #333;
+  outline: none;
+}
+
+.card p {
+  font-family: "Cousine";
+  margin-bottom: 30px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .grid-33 {
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

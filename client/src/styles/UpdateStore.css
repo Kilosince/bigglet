@@ -1,0 +1,166 @@
+/* Styles for the card */
+.update-store-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .update-store-card {
+        padding: 15px;
+        margin: 20px 10px; /* Add margin to avoid touching the edges */
+    }
+
+    .update-store-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .update-store-card {
+        padding: 10px;
+        margin: 20px 10px; /* Add margin to avoid touching the edges */
+    }
+
+    .update-store-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Specific styles for UpdateStore component */
+.update-store-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid var(--accentColor);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.update-store-flash-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.update-store-input-group {
+    margin-bottom: 15px;
+}
+
+.update-store-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.update-store-input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.update-store-button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.update-store-button {
+    background-color: var(--accentColor);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.update-store-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.update-store-button-cancel {
+    background-color: grey;
+    color: white;
+}
+
+.update-store-button-remove {
+    color: black;
+}
+
+.update-store-items-title,
+.update-store-new-item-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accentColor);
+    text-align: center;
+}
+
+.update-store-item-card,
+.update-store-new-item-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 2px solid var(--accentColor);
+}
+
+.update-store-item-title,
+.update-store-store-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    text-align: center;
+}
+
+.update-store-store-description,
+.update-store-store-location,
+.update-store-item-detail {
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+}
+
+/* Center button styles */
+.update-store-add-item-button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+}
+
+/* Remove icon styles */
+.update-store-remove-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* New style for store title */
+.update-store-store-title-bona-nova {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+.stores-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .stores-list-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .store-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .store-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .store-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .store-description,
+  .store-location,
+  .store-owner,
+  .no-stores {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #666;
+  }
+  
+  .no-stores {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .stores-list-container {
+      padding: 15px;
+      margin: 0 10px;
+    }
+  
+    .store-card {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stores-list-container {
+      padding: 10px;
+      margin: 0 10px;
+    }
+  
+    .store-card {
+      padding: 10px;
+    }
+  }
+  
